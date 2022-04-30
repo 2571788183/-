@@ -1,0 +1,10 @@
+input,select{padding:3px;
+	border:none!important;
+	-moz-appearance:inherit;
+	-webkit-appearance:inherit;
+}
+input:disabled,select:disabled{
+border:none;
+background-color:#fff;
+color:#000;
+}

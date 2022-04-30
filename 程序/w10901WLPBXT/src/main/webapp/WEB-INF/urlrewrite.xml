@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+        "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+
+<urlrewrite>
+    <rule> <note></note> <from>^/backend/CheckCode.jpg</from> <to type="forward">/backend/checkCode/list</to> </rule>
+    <rule> <note></note> <from>^/site!(\w+)</from> <to type="forward">/site/$1</to> </rule>
+    <rule> <note></note> <from>^/site\.do</from> <to type="redirect">/?%{query-string}</to> </rule>
+    <rule> <note></note> <from>^/(\w+)!(\w+)</from> <to type="forward">/$1/$2</to> </rule>
+    <rule> <note></note> <from>^/(\w+)\.do</from> <to type="forward">/$1/list</to> </rule>
+    <rule> <note></note> <from>^/backend/(\w+)\.do</from> <to type="forward">/backend/$1/list</to> </rule>
+    <rule> <note></note> <from>^/backend/(\w+)!(\w+)</from> <to type="forward">/backend/$1/$2</to> </rule>
+    <rule> <note></note> <from>^/houtai</from> <to type="redirect">/backend/main.jsp?%{query-string}</to> </rule>
+</urlrewrite>
+
