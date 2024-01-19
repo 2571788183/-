@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T06:28:57.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="uozq6omFOhd1IkZgl1C7" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T06:31:25.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="vkV5SO41RX4i4dXOuRRy" version="22.1.18" type="github">
   <diagram name="第 1 页" id="sc2p1u5gAOqfFjjmJYLN">
-    <mxGraphModel dx="974" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,13 +81,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="G_l80I6SJxn5hfOqZydm-16" value="一線坐席處理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="735" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="735" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G_l80I6SJxn5hfOqZydm-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G_l80I6SJxn5hfOqZydm-20" target="G_l80I6SJxn5hfOqZydm-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="G_l80I6SJxn5hfOqZydm-83" value="分配" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G_l80I6SJxn5hfOqZydm-50">
+          <mxGeometry x="-0.1196" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="G_l80I6SJxn5hfOqZydm-20" value="坐席管理人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="735" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="735" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G_l80I6SJxn5hfOqZydm-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G_l80I6SJxn5hfOqZydm-21" target="G_l80I6SJxn5hfOqZydm-20">
           <mxGeometry relative="1" as="geometry" />
@@ -131,35 +136,11 @@
             <mxPoint x="990" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G_l80I6SJxn5hfOqZydm-32" value="監控大屏提示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="G_l80I6SJxn5hfOqZydm-33" value="坐席管理人&lt;br&gt;管理臨時坐席" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="G_l80I6SJxn5hfOqZydm-34" value="來電" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G_l80I6SJxn5hfOqZydm-1">
           <mxGeometry x="-0.3333" width="160" relative="1" as="geometry">
             <mxPoint x="365" y="295" as="sourcePoint" />
             <mxPoint x="380" y="345" as="targetPoint" />
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="G_l80I6SJxn5hfOqZydm-35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="G_l80I6SJxn5hfOqZydm-32">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1100" y="220" as="sourcePoint" />
-            <mxPoint x="1490" y="170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="G_l80I6SJxn5hfOqZydm-36" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="G_l80I6SJxn5hfOqZydm-33" source="G_l80I6SJxn5hfOqZydm-32">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1570" y="130" as="sourcePoint" />
-            <mxPoint x="1720" y="130" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="G_l80I6SJxn5hfOqZydm-37" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G_l80I6SJxn5hfOqZydm-33">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1680" y="160" as="sourcePoint" />
-            <mxPoint x="1100" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G_l80I6SJxn5hfOqZydm-58" value="熱線坐席" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -185,13 +166,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G_l80I6SJxn5hfOqZydm-66" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="G_l80I6SJxn5hfOqZydm-59" target="G_l80I6SJxn5hfOqZydm-60">
-          <mxGeometry x="0.1199" y="51" width="160" relative="1" as="geometry">
-            <mxPoint x="102" y="223" as="sourcePoint" />
-            <mxPoint x="102" y="155" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="G_l80I6SJxn5hfOqZydm-67" value="&lt;h1&gt;排隊擁堵&lt;/h1&gt;&lt;div&gt;監控大屏預警，提醒坐席管理人添加臨時坐席&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="460" width="130" height="90" as="geometry" />
         </mxCell>
@@ -199,6 +173,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="170" y="500" as="sourcePoint" />
             <mxPoint x="250" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G_l80I6SJxn5hfOqZydm-84" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="G_l80I6SJxn5hfOqZydm-59" target="G_l80I6SJxn5hfOqZydm-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="210" as="sourcePoint" />
+            <mxPoint x="90" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
